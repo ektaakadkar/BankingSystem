@@ -39,7 +39,7 @@ public class InitialClass {
     }
 
     public static void main(String[] args){
-        String numberOfBankCounters = args[0];
+        String numberOfBankCounters = args[1];
         addCustomer customerObject = new addCustomer();
         customerObject.start();
         int count = 0;
